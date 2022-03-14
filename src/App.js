@@ -6,6 +6,7 @@ import GlobalStyle from './GlobalStyle';
 import theme from './theme';
 import Home from './pages/Home';
 import Search from './pages/Search';
+import Header from './components/Header';
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <Router>
         <Normalize />
         <GlobalStyle />
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/search" element={<Search />} />
+          <Route path="/search/:keyword" element={<Search />} />
         </Routes>
       </Router>
     </ThemeProvider>
