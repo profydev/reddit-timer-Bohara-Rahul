@@ -4,8 +4,6 @@ import { ThemeProvider } from 'styled-components';
 import { Normalize } from 'styled-normalize';
 import GlobalStyle from './GlobalStyle';
 import theme from './theme';
-
-// pages import 
 import Home from './pages/Home';
 import Search from './pages/Search';
 
