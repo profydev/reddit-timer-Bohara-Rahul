@@ -32,6 +32,10 @@ const Wrapper = styled.header`
     }
     a {
         text-decoration: none;
+        color: var(--text-clr);
+        font-size: 16px;
+        font-family: "Montserrat-Regular", serif;
+        line-height: 19.5px;
     }
 `;
 
